@@ -33,8 +33,10 @@ description: This project presents an interactive Power BI analysis of the **Pa
   - Medal distribution by country and medal type
   - Age-group analysis across athletes and medalists
 - Applied consistent calculation logic to ensure metric reliability across reports.
+## Project DAX Scripts
 
-![Data Model](/assets/image/Dax)
+You can view all the DAX formulas used in this project [here](https://github.com/DavidAsikpo/DavidAsikpo.github.io/blob/master/assets/image/Dax).
+
 
 ### 4. Dashboard Design & Interactivity
 
