@@ -1,7 +1,11 @@
-- name: Communication|Presentation
+- name: Communication & Presentation
   percentage: 95
   color: info
 
-- name: Business Understanding|Domain Knowledge
+- name: Business Understanding & Domain Knowledge
+  percentage: 90
+  color: success
+
+- name: Analytical Thinking & Attention to Detail
   percentage: 90
   color: success
