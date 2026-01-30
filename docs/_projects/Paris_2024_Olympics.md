@@ -1,7 +1,7 @@
 ---
 name: Paris 2024 Olympics Dashboard
 tools: [Power BI, Data Modeling]
-image: ![Live Dashbaord](/assets/image/display_paris.png)
+image: ![Paris 2024 Dashbaord](/assets/image/display_paris.png)
 description: This project presents an interactive Power BI analysis, encomprising of Data Modeling, Dax and Data Visualization on the **Paris 2024 Olympic Games**, focusing on athlete participation, country representation, age demographics, gender distribution, and medal performance. The dashboard provides insights into **11,110 athletes across 206 countries**, enabling users to explore Olympic data by **country, gender, age group, and medal type** through intuitive and visually engaging reports, data was retrieved from kaggle.
 
 ---
@@ -62,3 +62,11 @@ You can view all the DAX formulas used in this project [here](https://github.com
 - Clean separation of **facts, dimensions, and measures**
 - Performance-optimized Power BI model
 - Business-ready insights presented through intuitive dashboards
+
+**Tech Stack:** 
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-blue?logo=power-bi&logoColor=white) 
+![Power Query](https://img.shields.io/badge/Power%20Query-M-blue?logo=microsoft-powerquery&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-Analysis-blue?logo=tableau&logoColor=white)
+![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Database-blue)
+![Data Visualization](https://img.shields.io/badge/Visualization-Reports-blue)
+
