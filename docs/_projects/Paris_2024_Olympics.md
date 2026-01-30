@@ -43,6 +43,8 @@ description: This project presents an interactive Power BI analysis of the **Pa
 - Used maps, bar charts, and KPI cards to support **clear data storytelling**.
 - Maintained a clean, modern design for strong visual hierarchy and usability.
 
+![Live Dashbaord](/assets/image/Dash_2.png)
+
 ### 5. Key Outcomes & Value Delivered
 
 - Enabled quick comparison of **male vs female participation and medal performance**.
