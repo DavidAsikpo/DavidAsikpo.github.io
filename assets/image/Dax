@@ -1,0 +1,23 @@
+Bronze_Highlights = 
+"Out of "  & [Total_Bronze_Medal]& " Bronze medalists, " & [Total_Male_Atheltes_With_Bronze_Medal]& " were males and " & [Total_Female_Atheltes_With_Bronze_Medal] & " were females."
+
+Gold_Highlights = 
+"Out of "
+    & [Total_Gold_Medal]
+    & " Gold medalists, "
+    & [Total_Male_Atheltes_With_Gold_Medal]
+    & " were males and "
+    & [Total_Female_Atheltes_With_Gold_Medal]
+    & " were females."
+
+Highlights = 
+"Total Athletes: " & [Total_Atheletes] & 
+", with " & [Total_Male_Atheltes] & " male and " & [Total_Female_Atheltes] & " female athletes" &
+" (" & [Total_Female_Atheltes_With_Gold_Medal] & " gold medals by female athletes and " & [Total_Male_Atheltes_With_Gold_Medal] & " gold medals by male athletes)." &
+" Best performer: USA" 
+
+Total_Medals = var obj = Count(Medallists[code])
+return
+IF(ISBLANK(obj),0,obj)
+
+Total_Female_Atheltes_With_Silver_Medal = CALCULATE([Total_Silver_Medal],Medallists[gender] = "Female")
