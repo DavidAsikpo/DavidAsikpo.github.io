@@ -8,7 +8,7 @@ description: This project presents an interactive Power BI analysis, encomprisin
 
 ## Project Workflow & Impact
 
-![Live Dashbaord](/assets/image/Dash_1.png)
+![Live Dashbaord](/assets/image/DASH_1.png)
 ### 1. Data Sourcing & Preparation
 
 - Collected raw Paris 2024 Olympic datasets from **Kaggle**.
