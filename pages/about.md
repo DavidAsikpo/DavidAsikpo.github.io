@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I’m A Data Analyst | Business AnalystI turn messy data into meaningful insight. As a Statistics graduate and Power BI–focused Business Intelligence Analyst, I design analytics-ready data models and high-impact dashboards that support confident, data-driven decisions. I specialize in data modeling, statistical analysis, and Power BI visualization, building interactive dashboards that clearly communicate trends, KPIs, and business drivers across diverse, data-rich environments. My experience includes delivering multiple final-year data analysis projects and contributing to**
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
