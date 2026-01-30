@@ -13,7 +13,7 @@ I’m A Data Analyst and a Business Analyst turn messy data into meaningful insi
 
 <div class="row">
 {% include about/skills.html title="Technical Skills" source=site.data.Technical-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Professional Skills" source=site.data.Professional-skills %}
 </div>
 
 <div class="row">
