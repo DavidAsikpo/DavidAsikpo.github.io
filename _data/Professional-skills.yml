@@ -1,7 +1,7 @@
-- name: Communication Presentation
+- name: Communication|Presentation
   percentage: 95
   color: info
 
-- name: Business Understanding/Domain Knowledge
+- name: Business Understanding|Domain Knowledge
   percentage: 90
   color: success
