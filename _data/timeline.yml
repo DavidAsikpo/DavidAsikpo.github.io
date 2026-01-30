@@ -1,17 +1,16 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: BSc, Statistics, University Of Uyo
+  from: 2020
+  to: 2024
+  description: I graduated with a BSc in Statistics, gaining a solid foundation in data analysis, 
+               probability, and statistical modeling. This degree has equipped me with the 
+               skills to interpret complex datasets and translate them into actionable insights,
+               which I now apply in business intelligence and analytics projects to support data-driven 
+               decision-making
+               
+- title: Data Science Intern, Lloyds Bank
+  from: 2025
+  to: completed
+  description: During my internship at Lloyds Bank, I worked on building predictive models to identify customers
+               at risk of churn. Using data analysis, statistical modeling, and machine learning techniques, 
+               I helped generate actionable insights to support customer retention strategies and improve business 
+               decision-making.
