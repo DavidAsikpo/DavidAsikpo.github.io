@@ -34,6 +34,8 @@ description: This project presents an interactive Power BI analysis of the **Pa
   - Age-group analysis across athletes and medalists
 - Applied consistent calculation logic to ensure metric reliability across reports.
 
+![Data Model](/assets/image/data_model.png)
+
 ### 4. Dashboard Design & Interactivity
 
 - Built **two complementary dashboards** (Olympics Overview & Athletes Overview) for both executive and analytical use.
