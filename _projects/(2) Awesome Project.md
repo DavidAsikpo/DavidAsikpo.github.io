@@ -1,7 +1,7 @@
 ---
 name: Portfolio Performance & Risk Analytics Dashboard
 tools: [Advanced Excel,Statistical Analysis]
-image: https://res.cloudinary.com/dn5snxslw/image/upload/v1769802403/excel_e3xo1c.wep
+image: https://res.cloudinary.com/dn5snxslw/image/upload/v1769802403/excel_e3xo1c.webp
 description: An advanced, fully formula-driven Portfolio Performance and Risk Dashboard built in Microsoft Excel (no VBA). The project applies Power Query, dynamic formulas, pivot tables, and interactive visuals to analyze an equally weighted multi-asset portfolio from 2018 to 2025. It delivers actionable insights into performance, risk, diversification, correlation, and seasonality, demonstrating Excel’s capability as a powerful business intelligence and analytics tool.!
 ---
 
