@@ -77,7 +77,7 @@ twitch:
   color : 6441a5
 
 twitter:
-  url   : "https://x.com/DavidAsikpo"
+  url   : https://x.com/DavidAsikpo
   icon  : fab fa-twitter
   color : 1da1f2
 
