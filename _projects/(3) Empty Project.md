@@ -61,7 +61,7 @@ I designed a **star-schema data model** optimized for reporting performance and 
 
 A clean and intuitive schema that reduces query complexity and improves analytical performance.
 
-![Data Model](/assets/image/Data_model.png)
+![Data Model](/assets/image/data_model_main.webp)
 
 ---
 
