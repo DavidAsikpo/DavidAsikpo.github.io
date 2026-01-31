@@ -2,16 +2,16 @@
 name: A/B Testing Ad Campaign Analysis
 tools: [Python, Statistical Analysis]
 image: https://res.cloudinary.com/dn5snxslw/image/upload/v1769858325/A_b_test_d8wip3.webp
-description: This project presents an interactive dashboard for analyzing online advertising campaigns.It compares campaigns (e.g., Facebook Ads vs AdWords Ads) across key metrics such as Click-Through Rate (CTR), Conversion Rate, and **Cost Per Click**, identifying statistically significant differences using **A/B testing methodology.The primary goal is to provide actionable insights into campaign performance and support data-driven decision-making for ad spend optimization.
+description: This project presents an interactive dashboard for analyzing online advertising campaigns.It compares campaigns (e.g., Facebook Ads vs AdWords Ads) across key metrics such as Click-Through Rate (CTR), Conversion Rate, and Cost Per Click, identifying statistically significant differences using A/B testing methodology.The primary goal is to provide actionable insights into campaign performance and support data-driven decision-making for ad spend optimization.
 ---
 
 
 ## Project Summary
-![A/B Testing Dashboard](./assets/image/AB_test.webp)
+![A/B Testing Dashboard](/assets/image/AB_test.webp)
 
-This project delivers an interactive analytics dashboard designed to evaluate and compare online advertising campaigns using **A/B testing methodology**. The analysis focuses on measuring and validating performance differences between **Facebook Ads** and **Google AdWords** across key marketing KPIs such as **Click-Through Rate (CTR)**, **Conversion Rate**, and **Cost per Click (CPC)**.
+This project delivers an interactive analytics dashboard designed to evaluate and compare online advertising campaigns using **A/B testing methodology**. The analysis focuses on measuring and validating performance differences between **Facebook Ads** and **Google AdWords** across key marketing KPIs such as **Click-Through Rate (CTR)**, **Conversion Rate**, and **Cost per Click (CPC).
 
-Rather than relying on surface-level comparisons, the project applies **formal statistical testing** to determine whether observed performance differences are **statistically significant**, enabling confident and data-driven advertising spend decisions.
+Rather than relying on surface-level comparisons, the project applies formal statistical testing to determine whether observed performance differences are statistically significant, enabling confident and data-driven advertising spend decisions.
 
 ---
 
@@ -97,7 +97,7 @@ To validate performance differences between advertising platforms, I applied for
 
 **Outcome:** Data-backed insights that directly inform ad budget allocation and campaign optimization.
 
-👉 **View the full Python analysis notebook:** [A_B_testing.ipynb](./assets/image/A_B_testing.ipynb)
+👉 **View the full Python analysis notebook:** [A_B_testing.ipynb](/assets/image/A_B_testing.ipynb)
 
 ---
 
