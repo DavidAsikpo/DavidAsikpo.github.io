@@ -108,7 +108,6 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
-  - Blog.md
-  - Blog/
-  - Docs/
-  - Elements/
+  - blog/**
+  - docs/**
+  - elements/**
