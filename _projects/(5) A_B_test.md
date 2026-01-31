@@ -1,6 +1,6 @@
 ---
 name: A/B Testing Ad Campaign Analysis
-tools: [Python, Statistical Analysis]
+tools: [Python, Statistical Analysis, Tableau]
 image: https://res.cloudinary.com/dn5snxslw/image/upload/v1769858325/A_b_test_d8wip3.webp
 description: This project presents an interactive dashboard for analyzing online advertising campaigns.It compares campaigns (e.g., Facebook Ads vs AdWords Ads) across key metrics such as Click-Through Rate (CTR), Conversion Rate, and Cost Per Click, identifying statistically significant differences using A/B testing methodology.The primary goal is to provide actionable insights into campaign performance and support data-driven decision-making for ad spend optimization.
 ---
