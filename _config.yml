@@ -1,9 +1,9 @@
 ### Site Settings ###
 title               : "David Asikpo"
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      I turn Data :Data: into strategy,
+                      Charts into clarity
+                      and clicks into action.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : DavidAsikpo/DavidAsikpo.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
@@ -25,24 +25,24 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  name              : David Asikpo
+  image             : https://res.cloudinary.com/dn5snxslw/image/upload/v1769872202/dp_main_t1wbrc.jpg
   behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : asikpodavid2@gmail.com
+  facebook          : david.asikpo.2025
+  github            : DavidAsikpo
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
+  linkedin          : david-asikpo-a48634249
   medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+  twitter           : DavidAsikpo
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
