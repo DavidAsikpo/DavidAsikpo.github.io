@@ -61,7 +61,7 @@ I designed a **star-schema data model** optimized for reporting performance and 
 
 A clean and intuitive schema that reduces query complexity and improves analytical performance.
 
-![Data Model](/assets/image/data_model.jpg)
+![Data Model](/assets/image/Data_model.png)
 
 ---
 
@@ -91,7 +91,11 @@ High-quality, analytics-ready data with consistent business definitions.
 
 - Loaded transformed datasets into MySQL warehouse tables  
 - Enforced referential integrity between fact and dimension tables  
-- Optimized table structures for analytical querying  
+- Optimized table structures for analytical querying
+
+  
+[Click here to explore the SQL queries](https://github.com/DavidAsikpo/DavidAsikpo.github.io/tree/master/assets/image/sql_scripts)
+
 
 ---
 
