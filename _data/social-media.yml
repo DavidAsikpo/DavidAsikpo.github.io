@@ -22,7 +22,7 @@ facebook:
   color : 3b5998
 
 github:
-  url   : https://github.com/DavidAsikpo
+  url   : "https://github.com/DavidAsikpo"
   icon  : fab fa-github
   color : 333333
 
