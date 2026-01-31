@@ -9,7 +9,7 @@ description: This project presents an interactive dashboard for analyzing onli
 ## Project Summary
 ![A/B Testing Dashboard](/assets/image/AB_test.webp)
 
-This project delivers an interactive analytics dashboard designed to evaluate and compare online advertising campaigns using **A/B testing methodology**. The analysis focuses on measuring and validating performance differences between **Facebook Ads** and **Google AdWords** across key marketing KPIs such as **Click-Through Rate (CTR)**, **Conversion Rate**, and **Cost per Click (CPC).
+This project delivers an interactive analytics dashboard designed to evaluate and compare online advertising campaigns using **A/B testing methodology**. The analysis focuses on measuring and validating performance differences between **Facebook Ads** and **Google AdWords** across key marketing KPIs such as **Click-Through Rate (CTR)**, **Conversion Rate**, and **Cost per Click** (CPC).
 
 Rather than relying on surface-level comparisons, the project applies formal statistical testing to determine whether observed performance differences are statistically significant, enabling confident and data-driven advertising spend decisions.
 
