@@ -8,7 +8,7 @@ description: An advanced, fully formula-driven Portfolio Performance and Risk Da
 ## Portfolio Performance & Risk Dashboard | Excel BI Project
 
 ### Project Overview
-[Potfolio Dashboard](assets/image/excel_main.webp)
+![Potfolio Dashboard](assets/image/excel_main.webp)
 
 This project delivers a fully formula driven Portfolio Performance and Risk Dashboard built entirely in Microsoft Excel with no VBA required. It provides interactive analytics for an equally weighted portfolio of six securities (AAPL, GLD, MSFT, ^GSPC, TLT, EMM) covering the period from 2018 to 2025. The dashboard enables users to monitor portfolio performance, assess risk, evaluate diversification, and identify seasonality trends, supporting informed and data driven investment decisions.
 
@@ -21,7 +21,7 @@ The workflow began with data collection and cleaning of historical daily adjuste
 - **Correlation matrices** to analyze inter asset relationships  
 - **Quantitative diversification score** calculated as 100 × (1 minus average absolute correlation) to evaluate diversification effectiveness beyond sector exposure  
 
-[Diversitification Dashbaord](assets/image/Diversitification.png)
+![Diversitification Dashbaord](assets/image/Diversitification.png)
 The dashboard incorporates advanced performance and risk analytics through:
 
 - **Monthly volatility trends** and risk classification to highlight high risk periods such as the 2022 market stress  
@@ -36,7 +36,7 @@ The dashboard incorporates advanced performance and risk analytics through:
 - **Diversification Optimization:** Measure true diversification strength and guide allocation decisions to reduce overall risk  
 - **Strategic Recommendations:** Statistical insights support increasing defensive assets such as TLT and GLD to a combined range of 22 to 27 percent to reduce volatility by an estimated 150 to 200 basis points
 
-[Potfolio overview](assets/image/portfolio_overview.png)
+![Potfolio overview](assets/image/portfolio_overview.png)
 
 ### Impact and Results
 
