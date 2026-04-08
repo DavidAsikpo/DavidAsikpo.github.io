@@ -127,7 +127,7 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 ## Dashboard (Power BI)
 
 ### 🔹 Operational Dashboard
-![Operational Dashboard](./image/ticket_volume.jpeg)
+![Operational Dashboard](https://res.cloudinary.com/dn5snxslw/image/upload/v1775649243/dash_1_main_sztdkm.png)
 
 - Ticket volume trends over time  
 - Demand vs resolved comparison with backlog shading  
@@ -140,6 +140,7 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 - Performance tracking over time  
 
 ### 🔹 Agent Performance Dashboard
+![Agent Dashboard](https://res.cloudinary.com/dn5snxslw/image/upload/v1775658653/ui_bq1ihw.jpg)
 - Agent-level performance breakdown  
 - Workload vs efficiency analysis  
 - Resolution trends and SLA adherence  
