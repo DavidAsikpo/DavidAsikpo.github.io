@@ -63,34 +63,30 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 | Structure | Operational support dataset |
 |  Key Fields | status, priority, category, timestamps, SLA |
 
-
-## ⚙️ Approach
-
-### 🔹 Workflow  
 ## ⚙️ Workflow
 
 | Stage | Description | Link |
 |------|------------|------|
-| 📥 Raw Data | Original dataset used for analysis | [View Data](./data/) |
-| 🧹 Cleaning | Data preprocessing and transformation (Python) | [View Code](./notebooks/data_cleaning.ipynb) |
-| 🔧 Feature Engineering | Time features and SLA logic creation (Python)| [View Code](./notebooks/feature_engineering.ipynb) |
-| 🧮 Data Analysis | deep dive into patterns that suggest buisness problems (Python) | [View SQL](./sql/analysis.sql) |
+| 📥 Raw Data | Original dataset used for analysis | [View Data](Sla/agent_df/) |
+| 🧹 Cleaning | Data preprocessing and transformation (Python) | [View Code](Sla/data.ipynb) |
+| 🔧 Feature Engineering | Time features and SLA logic creation (Python)| [View Code](Sla/analysis.ipynb) |
+| 🧮 Data Analysis | deep dive into patterns that suggest buisness problems (Python) | [View code](Sla/analysis.ipynb) |
 | 🔮 Forecasting | Demand forecasting of tickets using ARIMA (Python) | [View Model](./notebooks/forecasting.ipynb) |
-| 📊 Dashboard | Interactive dashboard and visuals (Power BI) | [View Dashboard](./dashboard/) |
-| 💡 Insights | Final business insights and recommendations (Ms Word) | [View Summary](./reports/insights.md) |
+| 📊 Dashboard | Interactive dashboard and visuals (Power BI) | [View Dashboard](Sla/operational_dashbaord.jpeg) |
+| 💡 Insights | Final business insights and recommendations (Ms Word) | [View Summary](Sla/Customer_Support_Operations_Performance_Review.docx) |
 
 
 
 ---
 
-## 📥 Raw Data
+## Raw Data
 - Analyzed 200K+ customer support tickets across multiple dimensions  
 - Included fields such as priority, status, resolution time, SLA, and customer attributes  
 - Ensured dataset structure supports operational and performance analysis  
 
 ---
 
-## 🧹 Data Cleaning (Python)
+## Data Cleaning (Python)
 - Handled missing values and inconsistent data entries  
 - Standardized date formats for time-based analysis  
 - Cleaned categorical variables such as status, priority, and channel  
@@ -98,7 +94,7 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 
 ---
 
-## 🔧 Feature Engineering (Python)
+## Feature Engineering (Python)
 - Created time-based features:
   - Year  
   - Month  
@@ -110,7 +106,7 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 
 ---
 
-## 🧮 Data Analysis (Python / SQL)
+## Data Analysis (Python)
 - Analyzed ticket volume trends across time (daily, monthly, yearly)  
 - Identified stable demand patterns across all time periods  
 - Evaluated SLA compliance across priority and category  
@@ -122,7 +118,7 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 
 ---
 
-## 🔮 Forecasting (ARIMA - Python)
+## Forecasting (ARIMA - Python)
 - Built time series models to predict future ticket demand  
 - Validated that demand growth is stable and predictable  
 - Used forecasting to assess sustainability of support operations  
@@ -132,7 +128,7 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 
 ---
 
-## 📊 Dashboard (Power BI)
+## Dashboard (Power BI)
 
 ### 🔹 Operational Dashboard
 ![Ticket Volume](./image/ticket_volume.jpeg)
