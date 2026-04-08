@@ -6,7 +6,7 @@ description: Developed a workforce planning and operations analytics model using
 ---
 
 
-# 🟦 Staffing Optimization Model for Support Operations
+# Staffing Optimization Model for Support Operations
 
 > 🚀 **Reduced projected SLA breaches by 25%+ by identifying execution inefficiencies and optimizing staffing levels in a high-volume support environment**
 
@@ -35,10 +35,10 @@ Despite stable ticket volume, the system consistently underperforms due to:
 Organizations lack visibility into how **demand, resolution capacity, and agent behavior interact**.
 
 ### Key Risks:
-- 📉 Growing backlog  
-- ⛔ SLA violations  
-- 😡 Poor customer experience  
-- 💸 Inefficient resource utilization  
+- Growing backlog  
+- SLA violations  
+- Poor customer experience  
+- Inefficient resource utilization  
 
 ---
 
@@ -56,25 +56,27 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 
 | Attribute | Description |
 |----------|------------|
-| 📊 Records | 200,000+ tickets |
-| 📅 Time Range | 3 years |
-| 🧩 Structure | Operational support dataset |
-| 🔑 Key Fields | status, priority, category, timestamps, SLA |
+| Records | 200,000+ tickets |
+| Time Range | 3 years |
+| Structure | Operational support dataset |
+|  Key Fields | status, priority, category, timestamps, SLA |
 
----
-
-## 🛠️ Tech Stack
-
-- 🐍 Python (Pandas, NumPy)  
-- 🧮 SQL  
-- 📊 Power BI  
-- 🔮 ARIMA Forecasting  
-
----
 
 ## ⚙️ Approach
 
 ### 🔹 Workflow  
+## ⚙️ Workflow
+
+| Stage | Description | Link |
+|------|------------|------|
+| 📥 Raw Data | Original dataset used for analysis | [View Data](./data/) |
+| 🧹 Cleaning | Data preprocessing and transformation | [View Code](./notebooks/data_cleaning.ipynb) |
+| 🔧 Feature Engineering | Time features and SLA logic creation | [View Code](./notebooks/feature_engineering.ipynb) |
+| 🧮 SQL Analysis | KPI calculations and aggregation queries | [View SQL](./sql/analysis.sql) |
+| 🔮 Forecasting | Demand forecasting using ARIMA | [View Model](./notebooks/forecasting.ipynb) |
+| 📊 Dashboard | Power BI dashboard and visuals | [View Dashboard](./dashboard/) |
+| 💡 Insights | Final business insights and recommendations | [View Summary](./reports/insights.md) |
+
 **Tech Stack:** 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-blue?logo=power-bi&logoColor=white) 
 ![Power Query](https://img.shields.io/badge/Power%20Query-M-blue?logo=microsoft-powerquery&logoColor=white)
