@@ -68,12 +68,12 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 | Stage | Description | Link |
 |------|------------|------|
 | 📥 Raw Data | Original dataset used for analysis | [View Data](https://github.com/DavidAsikpo/DavidAsikpo.github.io/blob/master/_projects/Sla/agents_df) |
-| 🧹 Cleaning | Data preprocessing and transformation (Python) | [View Code](./Sla/data.ipynb) |
-| 🔧 Feature Engineering | Time features and SLA logic creation (Python)| [View Code](./Sla/analysis.ipynb) |
-| 🧮 Data Analysis | deep dive into patterns that suggest buisness problems (Python) | [View code](./Sla/analysis.ipynb) |
+| 🧹 Cleaning | Data preprocessing and transformation (Python) | [View Code](https://github.com/DavidAsikpo/DavidAsikpo.github.io/blob/master/_projects/Sla/analysis.ipynb) |
+| 🔧 Feature Engineering | Time features and SLA logic creation (Python)| [View Code](https://github.com/DavidAsikpo/DavidAsikpo.github.io/blob/master/_projects/Sla/analysis.ipynb) |
+| 🧮 Data Analysis | deep dive into patterns that suggest buisness problems (Python) | [View code](https://github.com/DavidAsikpo/DavidAsikpo.github.io/blob/master/_projects/Sla/analysis.ipynb) |
 | 🔮 Forecasting | Demand forecasting of tickets using ARIMA (Python) | [View Model](./notebooks/forecasting.ipynb) |
-| 📊 Dashboard | Interactive dashboard and visuals (Power BI) | [View Dashboard](./Sla/operational_dashbaord.jpeg) |
-| 💡 Insights | Final business insights and recommendations (Ms Word) | [View Summary](/.Sla/Customer_Support_Operations_Performance_Review.docx) |
+| 📊 Dashboard | Interactive dashboard and visuals (Power BI) | [View Dashboard](https://github.com/DavidAsikpo/DavidAsikpo.github.io/blob/master/_projects/Sla/operational_dashbaord.jpeg) |
+| 💡 Insights | Final business insights and recommendations (Ms Word) | [View Summary](https://github.com/DavidAsikpo/DavidAsikpo.github.io/blob/master/_projects/Sla/Customer_Support_Operations_Performance_Review.docx) |
 
 
 
@@ -114,8 +114,6 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 - Identified inefficiencies in response time and resolution flow  
 - Segmented performance by category, channel, and ticket complexity
 
-![Response Trends](./image/avg_response_and_first_time_resolution.jpg)
-
 ---
 
 ## Forecasting (ARIMA - Python)
@@ -124,14 +122,12 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 - Used forecasting to assess sustainability of support operations  
 - Provided insight into future resource planning needs
 
-![Response Trends](./image/avg_response_and_first_time_resolution.jpg)
-
 ---
 
 ## Dashboard (Power BI)
 
 ### 🔹 Operational Dashboard
-![Ticket Volume](./image/ticket_volume.jpeg)
+![Operational Dashboard](./image/ticket_volume.jpeg)
 
 - Ticket volume trends over time  
 - Demand vs resolved comparison with backlog shading  
@@ -139,30 +135,22 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 - Backlog growth visualization  
 
 ### 🔹 SLA Performance
-![SLA Compliance](./image/sla_compliance.jpeg)
-
 - SLA compliance by category and priority  
 - Identification of SLA breach drivers  
 - Performance tracking over time  
 
 ### 🔹 Agent Performance Dashboard
-![Agent Dashboard](./image/agent_full_dashbaord.jpg)
-
 - Agent-level performance breakdown  
 - Workload vs efficiency analysis  
 - Resolution trends and SLA adherence  
 
 ### 🔹 Agent Summary Card
-![Agent Card](./image/agent_card.jpg)
-
 - Individual agent profile  
 - Tickets handled  
 - SLA performance  
 - Hire date and performance indicators  
 
 ### 🔹 Response & Resolution Trends
-![Response Trends](./image/avg_response_and_first_time_resolution.jpg)
-
 - Average first response time trend  
 - Average resolution time trend  
 - Identification of delays in ticket lifecycle  
