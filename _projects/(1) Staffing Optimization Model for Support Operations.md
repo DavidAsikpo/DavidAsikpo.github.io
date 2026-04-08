@@ -70,17 +70,15 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 | Stage | Description | Link |
 |------|------------|------|
 | 📥 Raw Data | Original dataset used for analysis | [View Data](./data/) |
-| 🧹 Cleaning | Data preprocessing and transformation | [View Code](./notebooks/data_cleaning.ipynb) |
-| 🔧 Feature Engineering | Time features and SLA logic creation | [View Code](./notebooks/feature_engineering.ipynb) |
-| 🧮 SQL Analysis | KPI calculations and aggregation queries | [View SQL](./sql/analysis.sql) |
-| 🔮 Forecasting | Demand forecasting using ARIMA | [View Model](./notebooks/forecasting.ipynb) |
-| 📊 Dashboard | Power BI dashboard and visuals | [View Dashboard](./dashboard/) |
-| 💡 Insights | Final business insights and recommendations | [View Summary](./reports/insights.md) |
+| 🧹 Cleaning | Data preprocessing and transformation (Python) | [View Code](./notebooks/data_cleaning.ipynb) |
+| 🔧 Feature Engineering | Time features and SLA logic creation (Python)| [View Code](./notebooks/feature_engineering.ipynb) |
+| 🧮 Data Analysis | deep dive into patterns that suggest buisness problems (Python) | [View SQL](./sql/analysis.sql) |
+| 🔮 Forecasting | Demand forecasting of tickets using ARIMA (Python) | [View Model](./notebooks/forecasting.ipynb) |
+| 📊 Dashboard | Interactive dashboard and visuals (Power BI) | [View Dashboard](./dashboard/) |
+| 💡 Insights | Final business insights and recommendations (Ms Word) | [View Summary](./reports/insights.md) |
 
 **Tech Stack:** 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-blue?logo=power-bi&logoColor=white) 
-![Power Query](https://img.shields.io/badge/Power%20Query-M-blue?logo=microsoft-powerquery&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-Analysis-blue?logo=tableau&logoColor=white)
-![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Database-blue)
-![Data Visualization](https://img.shields.io/badge/Visualization-Reports-blue)
+![Python](https://img.shields.io/badge/Data%20Modeling-Database-blue)
+
 
