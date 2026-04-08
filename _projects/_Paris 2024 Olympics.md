@@ -6,62 +6,75 @@ description: Developed a workforce planning and operations analytics model using
 ---
 
 
-## Project Workflow & Impact
+# 🟦 Staffing Optimization Model for Support Operations
 
-![Live Dashbaord](/assets/image/DASH_1.jpg)
-### 1. Data Sourcing & Preparation
-
-- Collected raw Paris 2024 Olympic datasets from **Kaggle**.
-- Cleaned and standardized athlete, medal, and country data using **Power Query (M)**.
-- Created derived fields such as **age groups**, gender flags, and medal categories to support analysis.
-
-### 2. Data Modeling (Key Differentiator)
-
-- Designed a **star schema data model** optimized for performance and scalability.
-- Built clear relationships between **Athletes, Medalists, Countries, and supporting dimension tables**.
-- Centralized all KPIs in a dedicated **Measures table**, improving model clarity and reusability.
-- Reduced redundancy and ensured accurate cross-filtering across dashboards.
-
-![Data Model](/assets/image/Data_model.png)
-
-### 3. DAX & Analytics
-
-- Developed custom **DAX measures** for:
-  - Total athletes, teams, and countries
-  - Gender-based participation and medal counts
-  - Medal distribution by country and medal type
-  - Age-group analysis across athletes and medalists
-- Applied consistent calculation logic to ensure metric reliability across reports.
-## Project DAX Scripts
-
-You can view all the DAX formulas used in this project [here](https://github.com/DavidAsikpo/DavidAsikpo.github.io/blob/master/assets/image/Dax).
-
-
-### 4. Dashboard Design & Interactivity
-
-- Built **two complementary dashboards** (Olympics Overview & Athletes Overview) for both executive and analytical use.
-- Implemented interactive filters for **country, gender, age group, and medal type**.
-- Used maps, bar charts, and KPI cards to support **clear data storytelling**.
-- Maintained a clean, modern design for strong visual hierarchy and usability.
-
-![Live Dashbaord](/assets/image/Dash_2jpeg.jpeg)
-
-### 5. Key Outcomes & Value Delivered
-
-- Enabled quick comparison of **male vs female participation and medal performance**.
-- Revealed **country-level strengths** across medal types.
-- Highlighted athlete **age distribution trends** and medalist demographics.
-- Delivered a scalable Power BI model that can be extended to future Olympic editions.
+> 🚀 **Reduced projected SLA breaches by 25%+ by identifying execution inefficiencies and optimizing staffing levels in a high-volume support environment**
 
 ---
 
-### What Makes This Project Stand Out
+## 🚨 Executive Summary
 
-- Strong focus on **dimensional data modeling**, not just visuals
-- Clean separation of **facts, dimensions, and measures**
-- Performance-optimized Power BI model
-- Business-ready insights presented through intuitive dashboards
+Customer support operations are often assumed to struggle due to high demand.  
+This analysis challenges that assumption.
 
+Using **200,000+ support tickets**, this project uncovers a critical insight:
+
+> ❗ **The problem is not demand — it is execution**
+
+Despite stable ticket volume, the system consistently underperforms due to:
+- Low resolution output  
+- Delayed response times  
+- Poor SLA adherence  
+
+➡️ Result: **Systematic backlog growth and service inefficiency**
+
+---
+
+## 🎯 Business Problem
+
+Organizations lack visibility into how **demand, resolution capacity, and agent behavior interact**.
+
+### Key Risks:
+- 📉 Growing backlog  
+- ⛔ SLA violations  
+- 😡 Poor customer experience  
+- 💸 Inefficient resource utilization  
+
+---
+
+## ❓ Key Questions
+
+- Is demand increasing or stable?  
+- Are we resolving tickets at the same rate as intake?  
+- What drives SLA breaches?  
+- Where do delays occur in the lifecycle?  
+- How does agent performance impact outcomes?  
+
+---
+
+## 🧱 Dataset Overview
+
+| Attribute | Description |
+|----------|------------|
+| 📊 Records | 200,000+ tickets |
+| 📅 Time Range | 3 years |
+| 🧩 Structure | Operational support dataset |
+| 🔑 Key Fields | status, priority, category, timestamps, SLA |
+
+---
+
+## 🛠️ Tech Stack
+
+- 🐍 Python (Pandas, NumPy)  
+- 🧮 SQL  
+- 📊 Power BI  
+- 🔮 ARIMA Forecasting  
+
+---
+
+## ⚙️ Approach
+
+### 🔹 Workflow  
 **Tech Stack:** 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-blue?logo=power-bi&logoColor=white) 
 ![Power Query](https://img.shields.io/badge/Power%20Query-M-blue?logo=microsoft-powerquery&logoColor=white)
