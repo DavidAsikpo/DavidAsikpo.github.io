@@ -1,8 +1,8 @@
 ---
-name: Paris 2024 Olympics Dashboard
-tools: [Power BI, Data Modeling]
+name: Staffing Optimization Model for Support Operations
+tools: [Python, SQL, Power BI, Data Modeling]
 image: https://res.cloudinary.com/dn5snxslw/image/upload/v1769788116/display_paris_1_mdckev.jpg
-description: Interactive Power BI dashboard for the Paris 2024 Olympic Games, leveraging Data Modeling, DAX, and Data Visualization to analyze athlete participation, demographics, country representation, gender distribution, and medal performance. Explores insights for 11,110 athletes across 206 countries, enabling dynamic filtering by country, age group, gender, and medal type using optimized measures and a scalable star-schema model. Data sourced from Kaggle.
+description:Developed a workforce planning and operations analytics model using 200K+ support tickets to optimize staffing levels and improve SLA performance in a high-volume Care Support environment. Identified that stable demand (~160–220 daily tickets) masked execution gaps, with 70%+ SLA breaches driven by delayed response (31+ hrs) and low resolution capacity. Built forecasting and simulation framework linking demand, agent productivity, and SLA constraints to determine optimal headcount and workload distribution. Modeled cost vs service trade-offs, identifying staffing thresholds that could improve SLA compliance by 25%+ while reducing backlog growth. Designed automated KPI dashboards and presented insights to operations leadership, influencing decisions on resource allocation, performance benchmarking, and workflow optimization.
 ---
 
 
