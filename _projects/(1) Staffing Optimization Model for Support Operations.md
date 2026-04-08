@@ -67,12 +67,12 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 
 | Stage | Description | Link |
 |------|------------|------|
-| 📥 Raw Data | Original dataset used for analysis | [View Data](/.Sla/agent_df/) |
-| 🧹 Cleaning | Data preprocessing and transformation (Python) | [View Code](/.Sla/data.ipynb) |
-| 🔧 Feature Engineering | Time features and SLA logic creation (Python)| [View Code](/.Sla/analysis.ipynb) |
-| 🧮 Data Analysis | deep dive into patterns that suggest buisness problems (Python) | [View code](/.Sla/analysis.ipynb) |
+| 📥 Raw Data | Original dataset used for analysis | [View Data](./Sla/agents_df/) |
+| 🧹 Cleaning | Data preprocessing and transformation (Python) | [View Code](./Sla/data.ipynb) |
+| 🔧 Feature Engineering | Time features and SLA logic creation (Python)| [View Code](./Sla/analysis.ipynb) |
+| 🧮 Data Analysis | deep dive into patterns that suggest buisness problems (Python) | [View code](./Sla/analysis.ipynb) |
 | 🔮 Forecasting | Demand forecasting of tickets using ARIMA (Python) | [View Model](./notebooks/forecasting.ipynb) |
-| 📊 Dashboard | Interactive dashboard and visuals (Power BI) | [View Dashboard](/.Sla/operational_dashbaord.jpeg) |
+| 📊 Dashboard | Interactive dashboard and visuals (Power BI) | [View Dashboard](./Sla/operational_dashbaord.jpeg) |
 | 💡 Insights | Final business insights and recommendations (Ms Word) | [View Summary](/.Sla/Customer_Support_Operations_Performance_Review.docx) |
 
 
