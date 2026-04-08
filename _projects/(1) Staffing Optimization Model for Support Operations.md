@@ -8,6 +8,7 @@ description: Developed a workforce planning and operations analytics model using
 
 # Staffing Optimization Model for Support Operations
 
+
 > 🚀 **Reduced projected SLA breaches by 25%+ by identifying execution inefficiencies and optimizing staffing levels in a high-volume support environment**
 
 ---
@@ -18,6 +19,7 @@ Customer support operations are often assumed to struggle due to high demand.
 This analysis challenges that assumption.
 
 Using **200,000+ support tickets**, this project uncovers a critical insight:
+
 
 > ❗ **The problem is not demand — it is execution**
 
@@ -76,6 +78,101 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 | 🔮 Forecasting | Demand forecasting of tickets using ARIMA (Python) | [View Model](./notebooks/forecasting.ipynb) |
 | 📊 Dashboard | Interactive dashboard and visuals (Power BI) | [View Dashboard](./dashboard/) |
 | 💡 Insights | Final business insights and recommendations (Ms Word) | [View Summary](./reports/insights.md) |
+
+
+
+---
+
+## 📥 Raw Data
+- Analyzed 200K+ customer support tickets across multiple dimensions  
+- Included fields such as priority, status, resolution time, SLA, and customer attributes  
+- Ensured dataset structure supports operational and performance analysis  
+
+---
+
+## 🧹 Data Cleaning (Python)
+- Handled missing values and inconsistent data entries  
+- Standardized date formats for time-based analysis  
+- Cleaned categorical variables such as status, priority, and channel  
+- Removed duplicates and ensured data integrity for accurate reporting  
+
+---
+
+## 🔧 Feature Engineering (Python)
+- Created time-based features:
+  - Year  
+  - Month  
+  - Day of week  
+  - Year-Month aggregation  
+- Defined SLA thresholds based on priority levels  
+- Engineered backlog indicators (resolved vs unresolved vs pending)  
+- Built agent-level performance variables for deeper analysis  
+
+---
+
+## 🧮 Data Analysis (Python / SQL)
+- Analyzed ticket volume trends across time (daily, monthly, yearly)  
+- Identified stable demand patterns across all time periods  
+- Evaluated SLA compliance across priority and category  
+- Performed backlog analysis to track unresolved tickets over time  
+- Identified inefficiencies in response time and resolution flow  
+- Segmented performance by category, channel, and ticket complexity
+
+![Response Trends](./image/avg_response_and_first_time_resolution.jpg)
+
+---
+
+## 🔮 Forecasting (ARIMA - Python)
+- Built time series models to predict future ticket demand  
+- Validated that demand growth is stable and predictable  
+- Used forecasting to assess sustainability of support operations  
+- Provided insight into future resource planning needs
+
+![Response Trends](./image/avg_response_and_first_time_resolution.jpg)
+
+---
+
+## 📊 Dashboard (Power BI)
+
+### 🔹 Operational Dashboard
+![Ticket Volume](./image/ticket_volume.jpeg)
+
+- Ticket volume trends over time  
+- Demand vs resolved comparison with backlog shading  
+- SLA compliance tracking  
+- Backlog growth visualization  
+
+### 🔹 SLA Performance
+![SLA Compliance](./image/sla_compliance.jpeg)
+
+- SLA compliance by category and priority  
+- Identification of SLA breach drivers  
+- Performance tracking over time  
+
+### 🔹 Agent Performance Dashboard
+![Agent Dashboard](./image/agent_full_dashbaord.jpg)
+
+- Agent-level performance breakdown  
+- Workload vs efficiency analysis  
+- Resolution trends and SLA adherence  
+
+### 🔹 Agent Summary Card
+![Agent Card](./image/agent_card.jpg)
+
+- Individual agent profile  
+- Tickets handled  
+- SLA performance  
+- Hire date and performance indicators  
+
+### 🔹 Response & Resolution Trends
+![Response Trends](./image/avg_response_and_first_time_resolution.jpg)
+
+- Average first response time trend  
+- Average resolution time trend  
+- Identification of delays in ticket lifecycle  
+
+---
+
 
 **Tech Stack:** 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-blue?logo=power-bi&logoColor=white) 
