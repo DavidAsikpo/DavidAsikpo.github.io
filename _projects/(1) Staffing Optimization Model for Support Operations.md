@@ -67,7 +67,7 @@ Organizations lack visibility into how **demand, resolution capacity, and agent 
 
 | Stage | Description | Link |
 |------|------------|------|
-| 📥 Raw Data | Original dataset used for analysis | [View Data](./Sla/agents_df/) |
+| 📥 Raw Data | Original dataset used for analysis | [View Data](./Sla/agents_df) |
 | 🧹 Cleaning | Data preprocessing and transformation (Python) | [View Code](./Sla/data.ipynb) |
 | 🔧 Feature Engineering | Time features and SLA logic creation (Python)| [View Code](./Sla/analysis.ipynb) |
 | 🧮 Data Analysis | deep dive into patterns that suggest buisness problems (Python) | [View code](./Sla/analysis.ipynb) |
