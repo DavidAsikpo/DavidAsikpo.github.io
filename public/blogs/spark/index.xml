@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>How Spark Actually Executes a Join: Broadcast vs. Sort-Merge on Hugo Profile</title>
-		<link>http://localhost:1313/blogs/spark/</link>
-		<description>Recent content in How Spark Actually Executes a Join: Broadcast vs. Sort-Merge on Hugo Profile</description>
+		<title>How Spark Actually Executes a Join: Broadcast vs. Sort-Merge on David Profile</title>
+		<link>http://localhost:1314/blogs/spark/</link>
+		<description>Recent content in How Spark Actually Executes a Join: Broadcast vs. Sort-Merge on David Profile</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,6 +12,6 @@
 		
 			<lastBuildDate></lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/blogs/spark/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1314/blogs/spark/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

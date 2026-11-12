@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>PySpark on Hugo Profile</title>
-		<link>http://localhost:1313/tags/pyspark/</link>
-		<description>Recent content in PySpark on Hugo Profile</description>
+		<title>PySpark on David Profile</title>
+		<link>http://localhost:1314/tags/pyspark/</link>
+		<description>Recent content in PySpark on David Profile</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0100</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/pyspark/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1314/tags/pyspark/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>How Spark Actually Executes a Join: Broadcast vs. Sort-Merge</title>
-				<link>http://localhost:1313/blogs/spark/</link>
+				<link>http://localhost:1314/blogs/spark/</link>
 				<pubDate>Thu, 12 Nov 2026 00:00:00 +0100</pubDate>
-				<guid>http://localhost:1313/blogs/spark/</guid>
+				<guid>http://localhost:1314/blogs/spark/</guid>
 				<description>&lt;p&gt;Learning Databricks and Spark joins, and still guessing why your job is slow? You don&amp;rsquo;t need a cluster to find out.&lt;/p&gt;&#xA;&lt;p&gt;I built a local, hands-on walkthrough of how Spark executes a join, broadcast versus shuffle (sort-merge), using nothing but a laptop and PySpark in local mode. No Databricks, no cloud cluster, just the mechanics made visible.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-core-idea&#34;&gt;The core idea&lt;/h2&gt;&#xA;&lt;p&gt;Spark has two fundamentally different ways to join data.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Broadcast join:&lt;/strong&gt; Spark copies the small table to every executor, and each task does the match locally. There is no network shuffle, so it is nearly free.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sort-merge join:&lt;/strong&gt; Spark shuffles both sides across the cluster by key, sorts them, then merges. It moves your entire dataset across the wire.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Most people let Spark&amp;rsquo;s &lt;code&gt;autoBroadcastJoinThreshold&lt;/code&gt; decide silently. That works until Spark guesses wrong on a table that isn&amp;rsquo;t actually small, and the job (or the driver) pays for it.&lt;/p&gt;</description>
 			</item>
 	</channel>
