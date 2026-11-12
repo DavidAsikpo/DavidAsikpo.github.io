@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tags on Hugo Profile</title>
+		<link>http://localhost:1313/tags/</link>
+		<description>Recent content in Tags on Hugo Profile</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 12 Nov 2026 00:30:00 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Analytics Engineering</title>
+				<link>http://localhost:1313/tags/analytics-engineering/</link>
+				<pubDate>Thu, 12 Nov 2026 00:30:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/analytics-engineering/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Data Engineering</title>
+				<link>http://localhost:1313/tags/data-engineering/</link>
+				<pubDate>Thu, 12 Nov 2026 00:30:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/data-engineering/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Dbt</title>
+				<link>http://localhost:1313/tags/dbt/</link>
+				<pubDate>Thu, 12 Nov 2026 00:30:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/dbt/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Joins</title>
+				<link>http://localhost:1313/tags/joins/</link>
+				<pubDate>Thu, 12 Nov 2026 00:30:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/joins/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>SQL</title>
+				<link>http://localhost:1313/tags/sql/</link>
+				<pubDate>Thu, 12 Nov 2026 00:30:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/sql/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Apache Spark</title>
+				<link>http://localhost:1313/tags/apache-spark/</link>
+				<pubDate>Thu, 12 Nov 2026 00:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/apache-spark/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Databricks</title>
+				<link>http://localhost:1313/tags/databricks/</link>
+				<pubDate>Thu, 12 Nov 2026 00:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/databricks/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>PySpark</title>
+				<link>http://localhost:1313/tags/pyspark/</link>
+				<pubDate>Thu, 12 Nov 2026 00:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/pyspark/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ejemplo</title>
+				<link>http://localhost:1313/tags/ejemplo/</link>
+				<pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+				<guid>http://localhost:1313/tags/ejemplo/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Exemple</title>
+				<link>http://localhost:1313/tags/exemple/</link>
+				<pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+				<guid>http://localhost:1313/tags/exemple/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mathjax</title>
+				<link>http://localhost:1313/tags/mathjax/</link>
+				<pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+				<guid>http://localhost:1313/tags/mathjax/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sintaxis De Markdown</title>
+				<link>http://localhost:1313/tags/sintaxis-de-markdown/</link>
+				<pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+				<guid>http://localhost:1313/tags/sintaxis-de-markdown/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Syntaxe Markdown</title>
+				<link>http://localhost:1313/tags/syntaxe-markdown/</link>
+				<pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+				<guid>http://localhost:1313/tags/syntaxe-markdown/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Échantillon</title>
+				<link>http://localhost:1313/tags/%C3%A9chantillon/</link>
+				<pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+				<guid>http://localhost:1313/tags/%C3%A9chantillon/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Muestra</title>
+				<link>http://localhost:1313/tags/muestra/</link>
+				<pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+				<guid>http://localhost:1313/tags/muestra/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Soporte De Emoji</title>
+				<link>http://localhost:1313/tags/soporte-de-emoji/</link>
+				<pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+				<guid>http://localhost:1313/tags/soporte-de-emoji/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Support Des Emoji</title>
+				<link>http://localhost:1313/tags/support-des-emoji/</link>
+				<pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+				<guid>http://localhost:1313/tags/support-des-emoji/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Texte De Remplissage</title>
+				<link>http://localhost:1313/tags/texte-de-remplissage/</link>
+				<pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+				<guid>http://localhost:1313/tags/texte-de-remplissage/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Texto De Relleno</title>
+				<link>http://localhost:1313/tags/texto-de-relleno/</link>
+				<pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+				<guid>http://localhost:1313/tags/texto-de-relleno/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Contenido Enriquecido</title>
+				<link>http://localhost:1313/tags/contenido-enriquecido/</link>
+				<pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+				<guid>http://localhost:1313/tags/contenido-enriquecido/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Contenu Enrichi</title>
+				<link>http://localhost:1313/tags/contenu-enrichi/</link>
+				<pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+				<guid>http://localhost:1313/tags/contenu-enrichi/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>
